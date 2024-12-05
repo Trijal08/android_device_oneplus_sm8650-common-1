@@ -8,4 +8,6 @@
     <!-- Color of the UDFPS Pressed view -->
     <color name="config_udfpsColor">#ffffe6</color>
 
+    <!-- Show Now Playing -->
+    <bool name="config_show_now_playing">true</bool>
 </resources>
