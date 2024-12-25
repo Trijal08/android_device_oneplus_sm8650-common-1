@@ -367,6 +367,9 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, hardware/oplus/oplus-fwk/oplus-fwk.mk)
 
+# Tethering
+PRODUCT_PACKAGES += TetheringOverlay
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
