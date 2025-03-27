@@ -123,6 +123,9 @@ TARGET_KERNEL_CONFIG := \
     vendor/pineapple_GKI.config \
     vendor/oplus/pineapple_GKI.config
 
+# KernelSU Next and SuSFS kernel configuration
+TARGET_KERNEL_CONFIG += ksun_sus.config
+
 # Kernel modules
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/modules.load.system_dlkm))
 SYSTEM_KERNEL_MODULES := $(BOARD_SYSTEM_KERNEL_MODULES_LOAD)
